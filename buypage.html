@@ -221,10 +221,11 @@
                 <p>Scan QR Code to pay and then fill the form below to let us know of your purchase. You will receive the product shortly. Thank you.</p>
                 <form action="https://api.web3forms.com/submit" method="POST">
                     <input type="hidden" name="access_key" value="43205da7-3fb4-4c75-95f4-9da16b97729a">
-                    <input type="text" name="name" required>
-                    <input type="email" name="email" required>
-                    <textarea name="message" required></textarea>
-                    <button type="submit">Submit Form</button>
+                    <br>Please enter the admission number of your ward.<input type="admissionno" name="admissionno">
+                    <br>Please enter your name.<input type="text" name="name" required>
+                    <br>Please enter your phone number.<input type="phone" name="phone" required>
+                    <br>Please leave additional instructions here. Leave this section blank if there are no additional instructions.<textarea name="message"></textarea>
+                    <br><button type="submit">Submit Form</button>
                </form>
             </div>
     </section>
