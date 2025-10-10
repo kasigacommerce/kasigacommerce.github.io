@@ -218,8 +218,14 @@
             <!-- Product 1 -->
             <div class="product-card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/QR_code_for_mobile_English_Wikipedia.svg/1200px-QR_code_for_mobile_English_Wikipedia.svg.png">
-                <p>Scan QR Code to pay</p>
-                
+                <p>Scan QR Code to pay and then fill the form below to let us know of your purchase. You will receive the product shortly. Thank you.</p>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="43205da7-3fb4-4c75-95f4-9da16b97729a">
+                    <input type="text" name="name" required>
+                    <input type="email" name="email" required>
+                    <textarea name="message" required></textarea>
+                    <button type="submit">Submit Form</button>
+               </form>
             </div>
     </section>
 
