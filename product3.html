@@ -121,15 +121,14 @@
         }
 
         .product-card img {
-            max-width: 100%;
-            height: 250px; /* Fixed height for consistency */
             object-fit: cover;
             border-radius: 10px;
-            margin-bottom: 1.5rem; /* Space below image */
+            
             display: block;
-            margin-left: auto;
-            margin-right: auto; /* Center image with space */
+            margin-left: space;
+            margin-right: space; /* Center image with space */
         }
+
 
         .product-card h3 {
             font-size: 1.5rem;
@@ -172,6 +171,12 @@
             padding: 2rem;
             margin-top: 4rem;
         }
+
+
+    th, td {
+      padding: 2px; /* Applies 15px padding to all sides of table headers and data cells */
+    text-align: center;
+    }
 
         /* Responsive design for mobile: Keep simple */
         @media (max-width: 768px) {
